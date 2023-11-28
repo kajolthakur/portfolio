@@ -39,7 +39,7 @@
 
     <section class="home " id="home" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
         <div class="home-content">
-            <h1> I'm <span>Kajol Thakur</span> </h1>
+            <h1> I'm <span>Kajol Thakur,</span> </h1>
             <div>
                 <h1>Frontend Developer</h1>
 
@@ -52,7 +52,7 @@
             </p>
 
             <div class="btn-box">
-                <a href="KAJOL(RESUME).pdf" target="_blank" class="btn">Download Resume</a>
+                <a href="RESUME (KAJOL THAKUR).pdf" target="_blank" class="btn">Download Resume</a>
                 <a href="#" class="btn">Hire Me</a>
             </div>
         </div>
@@ -61,7 +61,8 @@
         </div>
 
         <div class="home-social">
-            <a href="https://www.linkedin.com/in/kajol-thakur-453a69203/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://www.linkedin.com/in/kajol-thakur-453a69203/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
             <a href="https://github.com/kajolthakur" target="_blank"><i class='bx bxl-github'></i></a>
 
         </div>
@@ -126,7 +127,7 @@
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023</div>
                             <h3>Course (Web Design) - Dice Academy</h3>
-                            <p> Currently pursuing
+                            <p>
                             </p>
                         </div>
                     </div>
@@ -144,7 +145,7 @@
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023</div>
-                            <h3>HTML</h3>
+                            <h3>HTML5</h3>
                             <div class="link">
                                 <a href="certificate_HTML_331064.pdf" target="_blank"><i
                                         class='bx bx-link-external'></i></a>
@@ -157,7 +158,7 @@
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023</div>
-                            <h3>CSS</h3>
+                            <h3>CSS3</h3>
                             <div class="link">
                                 <a href="certificate_CSS_331064.pdf" target="_blank"><i
                                         class='bx bx-link-external'></i></a>
@@ -201,7 +202,7 @@
                     <div class="education-content">
                         <div class="content">
                             <div class="year"><i class='bx bxs-calendar'></i>2023</div>
-                            <h3>JAVASCRIPT</h3>
+                            <h3>JAVASCRIPT ES6</h3>
                             <div class="link">
                                 <a href="certificate_Java Script Es6_331064.pdf" target="_blank"><i
                                         class='bx bx-link-external'></i></a>
@@ -218,7 +219,8 @@
                             <div class="year"><i class='bx bxs-calendar'></i>2023</div>
                             <h3>REACT</h3>
                             <div class="link">
-                                <a href="certificate_React_331064.pdf" target="_blank"><i class='bx bx-link-external'></i></a>
+                                <a href="certificate_React_331064.pdf" target="_blank"><i
+                                        class='bx bx-link-external'></i></a>
                             </div>
 
                             <p>
@@ -250,7 +252,7 @@
                         </div>
 
                         <div class="progress">
-                            <h3>CSS<span>80%</span></h3>
+                            <h3>CSS<span>85%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -260,7 +262,12 @@
                         </div>
 
                         <div class="progress">
-                            <h3>Javascript ES6<span>65%</span></h3>
+                            <h3>Javascript ES6<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Flexbox<span>80%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
 
@@ -301,6 +308,12 @@
 
                         <div class="progress">
                             <h3>TeamWork<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+
+                        <div class="progress">
+                            <h3> Github <span>70%</span></h3>
                             <div class="bar"><span></span></div>
                         </div>
                     </div>
@@ -352,12 +365,12 @@
             <form action="#">
                 <div class="input-box">
                     <div class="input-field">
-                        <input type="text" placeholder="Full Name" required>
+                        <input type="text" placeholder="Full Name" id="name" required>
                         <span class="focus"></span>
                     </div>
 
                     <div class="input-field">
-                        <input type="text" placeholder="Email Address" required>
+                        <input type="text" placeholder="Email Address" id="email" required>
                         <span class="focus"></span>
                     </div>
 
@@ -366,24 +379,24 @@
 
                 <div class="input-box">
                     <div class="input-field">
-                        <input type="number" placeholder="Mobile Number" required>
+                        <input type="number" placeholder="Mobile Number" id="number" required>
                         <span class="focus"></span>
                     </div>
 
                     <div class="input-field">
-                        <input type="text" placeholder="Email Subject" required>
+                        <input type="text" placeholder="Email Subject" id="subject" required>
                         <span class="focus"></span>
                     </div>
                     </span>
                 </div>
 
                 <div class="textarea-field">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" itemid="message" required></textarea>
                     <span class="focus"></span>
 
                 </div>
                 <div class="btn-box btns">
-                    <button type="submit" class="btn">Send</button>
+                    <button type="submit" class="btn" onclick="sendMail(event)">Send</button>
 
                 </div>
             </form>
@@ -403,6 +416,9 @@
     </footer>
 
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
 
     <script src="portfolio.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
