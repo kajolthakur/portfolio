@@ -17,10 +17,10 @@
 
 :root {
 
-    --bg-color: #4C4B16;
-    --second-bg-color: #898121;
+    --bg-color: #4c4b16f0;
+    --second-bg-color: #898021ef;
     --text-color: #F7F1E5;
-    --main-color: #E7B10A;
+    --main-color: #e7b00ae4;
 }
 
 html {
