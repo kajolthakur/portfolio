@@ -16,7 +16,7 @@ menu.onclick = () => {
 }
 
 (function () {
-    emailjs.init("-yK5RWclVGhDY2nmE");
+    emailjs.init("EwgM4dAtmMIi8cI7Z");
 })();
 
 
@@ -38,7 +38,7 @@ function sendMail(e) {
         `
     }
 
-    emailjs.send("service_1d1vgsb", "template_wix7plp", templateParams, "-yK5RWclVGhDY2nmE").then(function (response) {
+    emailjs.send("service_1d1vgsb", "template_wix7plp", templateParams, "EwgM4dAtmMIi8cI7Z").then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
         window.scrollTo(0, 0)
         document.getElementById('name').value = ""
