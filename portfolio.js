@@ -43,7 +43,9 @@ window.onscroll = () => {
 
 
 function sendMail(e) {
+
     e.preventDefault();
+    alert("hello");
     const name = document.getElementById('name').value
     const email = document.getElementById('email').value
     const number = document.getElementById('number').value
